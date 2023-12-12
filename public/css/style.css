@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Imported font family */
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Montserrat&family=Playfair+Display&display=swap');
+* {
+    font-family: 'Gentium Book Plus', serif;
+}
+
+/* Navigation */
+
+.navbar-item {
+    font-size: 1.3rem;
+}
+
+.custom-navbar a {
+    margin-right: 2%;
+}
+
+.custom-login-logout-button {
+    text-align: right;
+}
+
+#welcome-line {
+    padding: 10px;
+    font-size: 1.25rem;
+    color: darkgreen;
+}
+
+/* Header with Logo */
+.custom-header {
+    background-color: rgb(48, 32, 11);
+}
+
+/* .custom-top-left-right-border-radius {
+    border-radius: 5px 5px 0 0;
+} */
+
+.custom-padding-4 {
+    padding: 4px;
+}
+
+.custom-margin-top-5 {
+    margin-top: 5%;
+}
+
+.container {
+    width: 30%;
+    padding: 2px;
+   
+    
+}
+div .box{
+    background: rgb(167, 199, 167);
+    box-shadow: 2px 2px 4px rgb(200, 199, 199);
+    
+}
+
+.title {
+    text-align: center;
+}
