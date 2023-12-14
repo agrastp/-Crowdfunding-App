@@ -9,7 +9,15 @@
     font-family: 'Gentium Book Plus', serif;
 }
 
+html{
+    background-color: rgb(167, 199, 167);
+}
+
 /* Navigation */
+#home-link, #dashboard-link, #login-link{
+    color: rgb(167, 199, 167);
+    padding: 3px;
+}
 
 .navbar-item {
     font-size: 1.3rem;
@@ -29,14 +37,10 @@
     color: darkgreen;
 }
 
-/* Header with Logo */
+/* Header with Title */
 .custom-header {
     background-color: rgb(48, 32, 11);
 }
-
-/* .custom-top-left-right-border-radius {
-    border-radius: 5px 5px 0 0;
-} */
 
 .custom-padding-4 {
     padding: 4px;
@@ -54,10 +58,11 @@
 }
 div .box{
     background: rgb(167, 199, 167);
-    box-shadow: 2px 2px 4px rgb(200, 199, 199);
+    box-shadow: 2px 2px 8px rgb(200, 199, 199);
     
 }
 
 .title {
     text-align: center;
 }
+
